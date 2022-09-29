@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/giris"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Giriş Paneli"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="	#808080"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:hint="Kullanıcı Adı"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"></EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="	#808080"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"></EditText>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#808080"
+        android:text="Giriş Yap"
+        android:textAllCaps="false"
+        android:layout_marginBottom="330dp"></Button>
+
+    <RatingBar
+        android:id="@+id/rtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:background="@color/gray"
+        android:rating="0"
+        android:stepSize="0.5"
+        android:layout_gravity="center_horizontal"
+        android:padding="3dp"
+        ></RatingBar>
+
+    <Button
+        android:id="@+id/btndegerlendir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#808080"
+        android:text="Bizi Değerlendir"
+        android:textAllCaps="false"></Button>
+
+    <TextView
+        android:id="@+id/txtdeger"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonuç"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/gray"
+        android:textSize="15sp"
+        ></TextView>
+
+
+
+
+
+</LinearLayout>
